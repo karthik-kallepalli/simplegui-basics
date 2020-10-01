@@ -1,3 +1,3 @@
 # simplegui-basics
 
-Licensed under [MIT License](Licnese).
+Licensed under [MIT License](LICENSE).
