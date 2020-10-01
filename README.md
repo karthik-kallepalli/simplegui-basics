@@ -1,7 +1,7 @@
 # simplegui-basics
 
-Basic idea on simplegui module
+#Basics on simplegui module
 
-Further modules will be added soon
+More examples and games will be added in future repositories
 
 Licensed under [MIT License](LICENSE).
