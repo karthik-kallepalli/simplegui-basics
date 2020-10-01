@@ -1,0 +1,9 @@
+import simplegui
+
+frame = simplegui.create_frame("Label", 300, 300)
+
+#this statements add labels
+frame.add_label('Instructions')
+frame.add_label('User Arrow Keys')
+
+frame.start()

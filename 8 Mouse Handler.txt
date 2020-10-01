@@ -1,0 +1,12 @@
+import simplegui
+
+#mouse event handler
+def mouse(key):
+    pass
+
+frame = simplegui.create_frame('Keyboard Handler', 100, 100)
+
+#detects if any key is pressed down 
+frame.set_mouse_handler(mouse)
+
+frame.start()

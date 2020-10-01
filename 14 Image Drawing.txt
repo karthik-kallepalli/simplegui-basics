@@ -1,0 +1,16 @@
+import simplegui
+
+#store image into a variable
+img = simplegui.load_image('https://wallpapersite.com/images/wallpapers/airplane-2880x1800-aircraft-air-travel-4k-1028.jpg')
+
+def image_drawing(canvas):
+    #to dispaly image
+    canvas.draw_image(img, (2880/2, 1800/2), (2880, 1800), (200, 150), (400, 300))
+    #to display image with any rotation
+    canvas.draw_image(img, (2880/2, 1800/2), (2880, 1800), (200, 150), (400, 300), 6)
+
+frame = simplegui.create_frame('Image Drawing', 400, 300)
+
+frame.set_draw_handler(image_drawing)
+
+frame.start()

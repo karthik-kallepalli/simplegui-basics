@@ -1,0 +1,12 @@
+import simplegui
+
+#handles text input
+def text_input(text):
+    print(text) #prints in console, not on canvas
+
+frame = simplegui.create_frame("Label", 300, 300)
+
+#Adds button to the frame ("name on the button", event handler, WIDTH)
+frame.add_input("Enter Text", text_input, 100)
+
+frame.start()

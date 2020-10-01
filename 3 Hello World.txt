@@ -1,0 +1,14 @@
+import simplegui
+
+#canvas is predefined which enables to draw on canvas
+def print_on_canvas(canvas):
+    canvas.draw_text("Hello World", [60, 160], 38, "Black")
+
+frame = simplegui.create_frame("GUI Basics", 300, 300)
+
+frame.set_canvas_background("Yellow")
+
+#This event handler responsible for all the drawings on canvas
+frame.set_draw_handler(print_on_canvas)
+
+frame.start()

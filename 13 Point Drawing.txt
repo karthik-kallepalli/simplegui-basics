@@ -1,0 +1,11 @@
+import simplegui
+
+def point_drawing(canvas):
+    #draw_point takes ((x,y), color)
+    canvas.draw_point((150, 150), 'Red')
+
+frame = simplegui.create_frame('Point', 300, 300)
+
+frame.set_draw_handler(point_drawing)
+
+frame.start()

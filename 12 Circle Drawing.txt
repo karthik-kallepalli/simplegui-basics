@@ -1,0 +1,11 @@
+import simplegui
+
+def circle_drawing(canvas):
+    #draw_circle takes (center of the circle, radius, thickness, color)
+    canvas.draw_circle((150, 150), 100, 6, 'Red')
+
+frame = simplegui.create_frame('Circle Drawing', 300, 300)
+
+frame.set_draw_handler(circle_drawing)
+
+frame.start()

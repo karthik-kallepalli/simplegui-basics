@@ -1,0 +1,9 @@
+#import statement
+import simplegui
+
+#create a frame
+#arguments ("name of the Frame", WIDTH, HEIGHT)
+frame = simplegui.create_frame("GUI Basics", 300, 300)
+
+#start the frame
+frame.start()

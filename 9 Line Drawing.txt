@@ -1,0 +1,12 @@
+import simplegui
+
+def line_drawing(canvas):
+    #draw_line draws line draws line (starting point(x,y), ending point(x,y), thickness, color)
+    canvas.draw_line((10, 10), (290, 290), 5, 'Red')
+    canvas.draw_line((290, 10), (10, 290), 5, 'Red')
+
+frame = simplegui.create_frame('Line Drawing', 300, 300)
+
+frame.set_draw_handler(line_drawing)
+
+frame.start()

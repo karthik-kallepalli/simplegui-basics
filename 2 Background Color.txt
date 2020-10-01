@@ -1,0 +1,8 @@
+import simplegui
+
+frame = simplegui.create_frame("GUI Basics", 300, 300)
+
+#sets background color
+frame.set_canvas_background("Yellow")
+
+frame.start()

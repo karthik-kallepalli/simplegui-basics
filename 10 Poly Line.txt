@@ -1,0 +1,14 @@
+import simplegui
+
+def polyline_drawing(canvas):
+    #ployline takes one extra argument than draw_line in between starting point and ending point
+    #the line touches that point and goes to end point
+    canvas.draw_line([(10, 10), (220,80), (290, 290)], 5, 'Red')
+
+
+frame = simplegui.create_frame('PolyLine Drawing', 300, 300)
+
+frame.set_draw_handler(polyline_drawing)
+
+frame.start()
+

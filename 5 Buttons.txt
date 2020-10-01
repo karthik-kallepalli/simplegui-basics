@@ -1,0 +1,12 @@
+import simplegui
+
+#To handle button
+def button_click():
+    pass
+
+frame = simplegui.create_frame("Label", 300, 300)
+
+#Adds button to the frame ("name on the button", event handler, WIDTH)
+frame.add_button("Click Here", button_click, 100)
+
+frame.start()

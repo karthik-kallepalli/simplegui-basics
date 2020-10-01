@@ -1,0 +1,11 @@
+import simplegui
+
+def polygon_draw(canvas):
+    #this draw_polygon connects the three points and draw a line
+    canvas.draw_polygon([(150, 10), (10, 290), (290, 290)], 10, 'Red')
+
+frame = simplegui.create_frame('Drawing using Polygon', 300, 300)
+
+frame.set_draw_handler(polygon_draw)
+
+frame.start()
